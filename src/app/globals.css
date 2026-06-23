@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-
+/* --- THE FLEX GRID ENGINE CONTROLLERS --- */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -35,7 +35,7 @@ body {
   align-items: center;
 }
 
-
+/* --- TOP LINKING UTILITY STRIP --- */
 .top-bar {
   background-color: #fff;
   border-bottom: 1px solid var(--card-border);
@@ -64,7 +64,7 @@ body {
   font-weight: 600;
 }
 
-
+/* --- LOGO & SEARCH NAVIGATION HEADER CONTAINER --- */
 .main-header {
   background-color: #fff;
   padding: 20px 0;
@@ -182,12 +182,13 @@ body {
   font-weight: 700;
 }
 
-
+/* --- CENTRAL CONTENT FRAME --- */
 .content-frame {
   padding-top: 30px;
   padding-bottom: 60px;
 }
 
+/* --- HERO BANNERS --- */
 .hero-banner {
   background: linear-gradient(135deg, #fdf6ec 0%, #fef0f0 100%);
   border-radius: 12px;
@@ -225,6 +226,7 @@ body {
   color: #fff;
 }
 
+/* --- DYNAMIC GRID CATALOG FEED SYSTEM --- */
 .feed-section {
   width: 100%;
 }

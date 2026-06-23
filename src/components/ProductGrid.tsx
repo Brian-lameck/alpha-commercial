@@ -1,7 +1,7 @@
 'use client';
 
 import React, { MouseEvent } from 'react';
-import { Product, ActiveCategory } from '@/types';
+import { Product, ActiveCategory } from '@/app/types';
 
 interface ProductGridProps {
   visibleProducts: Product[];
